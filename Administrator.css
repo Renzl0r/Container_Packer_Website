@@ -1,0 +1,44 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: right;
+    padding-right: 3%;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+/*Write from here*/
+  
+
+/*To here here*/
+
+  footer {
+    background-color: #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  

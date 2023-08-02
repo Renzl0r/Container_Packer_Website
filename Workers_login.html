@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Workers Login - Shipping Containers Company</title>
+	<link rel="stylesheet" type="text/css" href="Workers_login.css">
+</head>
+<body>
+	<header>
+		<h1>Kenya Ports Container Management</h1>
+		<h3>Hello, There!!</h3>	
+	</header>
+	
+	<nav>
+		<a href="Home.html">Home</a>
+		<a href="Services.html">Services</a>
+		<a href="About.html">About Us</a>
+		<a href="Contacts.html">Contact Us</a>
+        <a href="Sign up.html">Sign up</a>
+	</nav>
+	<section>
+		<h1>Worker Login</h1>
+		<form action="Php files/Workers_login.php" method="POST">
+			<label for="first_name_worker">First Name:</label>
+			<input type="name" id="first_name_worker" name="first_name_worker" required>
+            <label for="last_name_worker">Last Name:</label>
+			<input type="name" id="last_name_worker" name="last_name_worker" required>
+            <label for="Email">Email:</label>
+			<input type="Email" id="Email" name="Email" required>
+            <label for="Password">Password:</label>
+			<input type="password" id="Password" name="Password" required>
+            <label for="Worker Criteria">Worker Criteria:</label>
+			<select id="Worker_Criteria" name="Worker_Criteria">
+                <option value="Crane Driver">Crane Driver</option>
+                <option value="Cleaning">Cleaning</option>
+                <option value="Crew Captain">Crew Captain</option>
+				<option value="Construction worker">Construction worker</option>
+				<option value="Warehouse associate">Warehouse associate</option>
+				<option value="Farm laborer">Farm laborer</option>
+				<option value="Ironworker">Ironworker</option>
+				<option value="Tree cutter">Tree cutter</option>
+				<option value="Construction laborer">Construction laborer</option>
+				<option value="Landscaper">Landscaper</option>
+				<option value="Truck driver">Truck driver</option>
+				<option value="Delivery driver">Delivery driver</option>
+				<option value="Miner">Miner</option>
+				<option value="Oil rig worker">Oil rig worker</option>
+				<option value="Welder">Welder</option>
+				<option value="Forklift operator">Forklift operator</option>
+				<option value="Carpenter">Carpenter</option>
+				<option value="Roofer">Roofer</option>
+				<option value="Dockworker">Dockworker</option>
+				<option value="Electrical lineman">Electrical lineman</option>
+				<option value="Firefighter">Firefighter</option>
+				<option value="Janitor">Janitor</option>
+				<option value="Steelworker">Steelworker</option>
+				<option value="Factory worker">Factory worker</option>
+				<option value="Maintenance worker">Maintenance worker</option>
+				<option value="Heavy equipment operator">Heavy equipment operator</option>
+				<option value="Plumber">Plumber</option>
+				<option value="Cleaning">Cleaning</option>
+
+           	 </select>
+            <label for="start_shift">Enter the time you started your shift</label>
+            <input type="datetime-local" id="start_shift" name="start_shift" required>
+
+
+			<input type="submit" value="Login">
+
+
+			
+		</form>
+	</section>
+	<footer>
+		<p>&copy; 2023 Kenya Ports Container Management Company. All rights reserved.</p>
+	</footer>
+</body>
+</html>

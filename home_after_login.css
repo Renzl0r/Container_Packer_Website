@@ -1,0 +1,236 @@
+/* Global styles */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images for project/background.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: center;
+  }
+
+  h1 {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 1rem;
+    background-color: #2c3e50;
+  }
+
+  h3 {
+    text-align: right;
+    padding-right: 3%;
+    color: #fff;
+    margin: 0;
+    padding: 1rem;
+    background-color: #2c3e50;
+  }
+
+  .logout-button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .logout-button:hover {
+    background-color: #9e6262;
+  }
+
+  nav {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 1rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+color: #000;
+text-decoration: none;
+margin: 0 1rem;
+font-size: 20px;
+font-weight: bold;
+transition: all 0.3s ease;
+padding: 0.5rem 1rem;
+border-radius: 20px;
+}
+
+nav a:hover {
+background-color: #2c3e50;
+color: #fff;
+}
+/* Write from here */
+
+/* Styles for the section */
+section {
+  background-color: #bdbdbd;
+  padding: 20px;
+}
+
+h4 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #666666;
+  line-height: 1.5;
+}
+
+/* Styles for the user's information */
+.user-info {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #555555;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-info .label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Styles for the link */
+a.link {
+  font-size: 18px;
+  color: #0088cc;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  transition: color 0.3s ease-in-out;
+  border-bottom: 2px solid #0088cc;
+  padding-bottom: 3px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+a.link:hover {
+  text-decoration: none;
+  color: #005580;
+  border-bottom-color: #005580;
+}
+
+
+
+/* To here */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+.footer{
+  flex-shrink: 0;
+}
+
+
+/* To here */
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+  h3 {
+    background-color: #333;
+    color: #fff;
+    padding-right: 10%;
+    text-align: right;
+  
+  }
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+section {
+  margin: 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.container {
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+        
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+ */
