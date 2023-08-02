@@ -1,5 +1,5 @@
-<h1>Container_Website_Packer</h1>
-<h2>This is a website that tracks your shipment overseas</h2>
+<h1>Container_Packing_Website</h1>
+<h2>This is a website that generates slots for your container on to a ship. It will then track it overseas</h2>
 
 
 <img src = "HomePage screenshot.png" width=700px>
