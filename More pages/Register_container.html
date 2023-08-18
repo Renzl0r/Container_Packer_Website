@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Container Registraion - Shipping Containers Company</title>
+	<link rel="stylesheet" type="text/css" href="Register_container.css">
+</head>
+<body>
+	<header>
+		<h1>Kenya Ports Container Management</h1>
+
+			<h3>Hello, User</h3>	
+
+		
+	</header>
+	<nav>
+		<a href="Home.html">Home</a>
+		<a href="Services.html">Services</a>
+		<a href="About.html">About Us</a>
+		<a href="Contacts.html">Contact Us</a>
+        <a href="Login.html">Login</a>
+        <a href="Sign up.html">Sign up</a>
+	</nav>
+	
+<!--Write your code from here-->
+    <h2>Container Registraion</h2>
+    <h4>Here you can register you container you wish to export.</h4>
+    <h5> Fill in the form below.</h5>
+    
+    
+        <form method="post" action="\School Project\Input_parameters.php">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="firstname" name="first_name" required>
+            
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="lastname" name="last_name" required>
+
+            <label for="container_type">Container:</label>
+            <select id="containertype" name="container_type" required>
+            <option value="">Select Container type</option>
+            <option value="20TEU">20 TEU</option>
+            <option value="40TEU">40 TEU</option>
+            </select>
+            
+            <label for="container_weight">Mass (in Kilos):</label>
+            <input type="number" id="containerweight" name="container_weight" required>
+            
+            <!-- <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required> -->
+            
+            <input type="submit" value="Submit">
+            </form>
+    
+<!--To here-->	
+	<footer>
+		<p>&copy; 2023 Kenya Ports Container Management Company. All rights reserved.</p>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- $db_path = "C:\Users\Sammmy\Desktop\School project\School_Project.accdb"; -->
